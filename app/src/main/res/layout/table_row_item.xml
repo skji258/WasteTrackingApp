@@ -1,0 +1,29 @@
+<!-- res/layout/table_row_item.xml -->
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Column 1: RFID -->
+    <TextView
+        android:id="@+id/txtRfid"
+        style="@style/TableCell"
+        android:text="RFID" />
+
+    <!-- Column 2: Product Type -->
+    <TextView
+        android:id="@+id/txtProductType"
+        style="@style/TableCell"
+        android:text="Product Type" />
+
+    <!-- Column 3: Recyclable -->
+    <TextView
+        android:id="@+id/txtRecyclable"
+        style="@style/TableCell"
+        android:text="Recyclable" />
+
+    <!-- Column 4: Percentage -->
+    <TextView
+        android:id="@+id/txtPercentage"
+        style="@style/TableCell"
+        android:text="Percentage" />
+</TableRow>
